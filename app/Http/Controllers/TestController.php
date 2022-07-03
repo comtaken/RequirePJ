@@ -14,6 +14,6 @@ class TestController extends Controller
 
     public function post_test(Request $request)
     {
-       echo 'テストのポスト送信';
+       echo 'テストのPOST送信';
     }
 }

@@ -9,6 +9,6 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/taion/taion_route.php', [TestController::class,'test'])->name('test');
+Route::get('/TEST/test.php', [TestController::class,'test'])->name('test');
 
 Route::post('/TEST/post_test.php', [TestController::class,'post_test'])->name('post_test');
