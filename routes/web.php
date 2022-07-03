@@ -17,10 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//メニューへ
 require __DIR__ . '/menu.php';
 
-
+//TEST機能のルーティングファイルを取り込み
 require __DIR__ . '/TEST/test.php';
 
-
+//TASK機能のルーティングファイルを取り込み
 require __DIR__ . '/TASK/task.php';
