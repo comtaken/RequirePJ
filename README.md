@@ -1,7 +1,8 @@
 # RequirePJ
 
 - 概要  
-require __DIR__によるweb.phpの簡素化
+require __DIR__によるweb.phpの簡素化  
+POST送信もrequire先のファイルで受け付ける（routes/TESTフォルダ参照）
 web.php参照
 
 - エントリーURL  
